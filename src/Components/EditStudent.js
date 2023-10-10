@@ -63,7 +63,7 @@ export default function EditStudent() {
                         <label for="exampleInputEmail1" className="form-label">Batch</label>
                         <input type="number" className="form-control" id="exampleInputEmail1" name="batch" aria-describedby="emailHelp" value={inputData.batch} onChange={(e) => changeHandler(e.target)} />
                     </div>
-                    <button type="submit" className="btn btn-primary">Submit</button>
+                    <button type="submit" className="btn btn-primary">Submit Data</button>
                 </form>
             </div>
   
